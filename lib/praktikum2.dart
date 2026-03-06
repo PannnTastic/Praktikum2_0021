@@ -91,7 +91,29 @@ class Praktikum2 extends StatelessWidget {
                     ),
                   ),
                 ),
-
+                const SizedBox(width: 16,),
+                Expanded(
+                    child: ElevatedButton(
+                      onPressed: (){},
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.blue[900],
+                        padding: const EdgeInsets.symmetric(vertical: 20),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(40)
+                        ),
+                      ),
+                      child: const Text(
+                        "Save",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16
+                        ),
+                      )
+                    ),
+                )
+              ],
+            ),
+            
           ],
         ),
       ),
