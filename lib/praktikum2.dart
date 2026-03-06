@@ -47,6 +47,8 @@ class Praktikum2 extends StatelessWidget {
             const Spacer(),
 
             Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(24),
 
             )
           ],
