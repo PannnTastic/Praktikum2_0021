@@ -118,6 +118,14 @@ class Praktikum2 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               spacing: 100,
               children: [
+                Text(
+                  "20230140021",
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey
+                  ),
+                ),
                 
               ],
             ),
