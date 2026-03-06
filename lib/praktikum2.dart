@@ -70,7 +70,28 @@ class Praktikum2 extends StatelessWidget {
             ),
             const Spacer(),
 
-            
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton(
+                    onPressed: (){},
+                    style: OutlinedButton.styleFrom(
+                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      side: const BorderSide(color: Colors.grey),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(40)
+                      ),
+                    ),
+                    child: const Text(
+                      "Cancel",
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 16
+                      ),
+                    ),
+                  ),
+                ),
+
           ],
         ),
       ),
