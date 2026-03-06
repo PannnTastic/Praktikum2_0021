@@ -36,7 +36,15 @@ class Praktikum2 extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-
+            const SizedBox(height: 8),
+            const Text(
+              "Haloo Ini Stateless Widget",
+              style: TextStyle(
+                fontSize: 14,
+                color: Colors.grey
+              ),
+            ),
+            const Spacer()
           ],
         ),
       ),
