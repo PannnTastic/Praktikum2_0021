@@ -126,7 +126,14 @@ class Praktikum2 extends StatelessWidget {
                     color: Colors.grey
                   ),
                 ),
-                
+                Text(
+                  "Ahmad Alfan Alfian Irfan",
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey
+                  ),
+                )
               ],
             ),
             const SizedBox(height: 64),
