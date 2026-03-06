@@ -60,7 +60,15 @@ class Praktikum2 extends StatelessWidget {
                   )
                 ],
               ),
-            )
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: Image.asset(
+                  "assets/images/leon.jpg",
+                  fit: BoxFit.contain,
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
