@@ -49,7 +49,11 @@ class Praktikum2 extends StatelessWidget {
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(24),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(20),
 
+              ),
             )
           ],
         ),
