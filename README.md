@@ -1,6 +1,7 @@
 # praktikum2_0021
 
-A new Flutter project.
+<img width="1440" height="3120" alt="image" src="https://github.com/user-attachments/assets/f261d2cc-46fe-4c7c-a0c2-3a783cc8c8ba" />
+
 
 ## Getting Started
 
