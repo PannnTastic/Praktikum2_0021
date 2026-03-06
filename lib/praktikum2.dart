@@ -16,8 +16,16 @@ class Praktikum2 extends StatelessWidget {
           ),
           onPressed: (){},
         ),
+        actions: [
+          IconButton(
+              icon: const Icon(
+                Icons.settings, color: Colors.black,
+              ),
+              onPressed: (){}
+          )
+        ],
       ),
-    )
+    );
   }
 }
 
