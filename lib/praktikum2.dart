@@ -114,7 +114,10 @@ class Praktikum2 extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 24),
-            
+            const Row(
+              
+            ),
+            const SizedBox(height: 64),
           ],
         ),
       ),
