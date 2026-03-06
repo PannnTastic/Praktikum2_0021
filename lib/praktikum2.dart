@@ -68,7 +68,9 @@ class Praktikum2 extends StatelessWidget {
                 ),
               ),
             ),
+            const Spacer(),
 
+            
           ],
         ),
       ),
