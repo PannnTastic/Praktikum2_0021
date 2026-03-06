@@ -117,7 +117,9 @@ class Praktikum2 extends StatelessWidget {
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               spacing: 100,
-
+              children: [
+                
+              ],
             ),
             const SizedBox(height: 64),
           ],
